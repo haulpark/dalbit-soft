@@ -1,0 +1,64 @@
+/* header.css */
+
+@media all and (min-width:320px) and (max-width:479px){
+
+#headBox{
+  width:100%; height:10%;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.info_title{
+  float:left;
+  width:150px; height:40px;
+  margin-top:15px; margin-left:20px; 
+  background-image: url(../../img/image/headbox_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.test{
+  position: absolute; z-index:100;
+  left:50%;
+  top:2%; margin:auto;
+  color:#ccc;
+  font-size:0.5rem;
+}
+
+.languageList{
+  position: absolute; z-index: 1000;
+  right:15px; top:20px;
+  width:40px; height:auto;
+  
+}
+
+.languageList ul{width:100%; height:auto;}
+.languageList li{width:100%; height:auto;}
+.languageList dl{width:100%; height:auto;}
+
+.languageList dt{
+  width:100%; height:30px; 
+  background-image: url(../../img/image/korea.png);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  border:2px solid #ccc;
+  box-sizing: border-box;
+}
+
+.languageList dd{width:100%; height:auto;}
+.languageList dd > ul{width:100%; height:auto; display: none; background-color: #fff;}
+
+.languageList dd > ul > li{
+  width:100%; height:30px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;}
+
+
+.languageList dd > ul > li:nth-child(1){display:none; background-image: url(../../img/image/korea.png);}
+.languageList dd > ul > li:nth-child(2){background-image: url(../../img/image/china.png);}
+.languageList dd > ul > li:nth-child(3){background-image: url(../../img/image/japan.png);}
+.languageList dd > ul > li:nth-child(4){background-image: url(../../img/image/usa.png);}
+.languageList dd > ul > li:nth-child(5){background-image: url(../../img/image/veitnam.png);}

@@ -1,0 +1,34 @@
+/* p_time.css */
+
+@media all and (min-width:320px) and (max-width:479px){
+
+#wrap{width:100%; height:100%;}
+
+/* ================================== */
+
+#timeBox{
+  position: relative;
+  width:100%; height:86%;
+  box-sizing: border-box;
+}
+
+h1{text-align: center; font-size:1.8rem; padding-top: 200px;}
+
+.time_guide{
+  margin-top: 20px;
+  width:auto; height:100px;
+  text-align: center;
+  font-size:1.5rem;
+}
+
+span{color:#f00; }
+
+button{
+  width:140px; height:50px;
+  position: absolute;
+  left:0; right:0; margin:auto; bottom:5%;
+  padding-left: 5px;
+  font-size: 12pt; 
+}
+
+}

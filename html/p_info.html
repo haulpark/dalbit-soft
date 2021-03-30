@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximun-scale=3.0, minimum-scale=0.5">
+
+<link rel="stylesheet" href="../css/base/reset.css">
+<link rel="stylesheet" href="../css/base/common.css">
+
+<link rel="stylesheet" href="../css/src/header.css">
+<link rel="stylesheet" href="../css/src/footer.css">
+
+<link rel="stylesheet" href="../css/src/p_info.css">
+
+<!--[if IE]>
+<script src="./ie/html5shive/dist/html5shive.min.js"></script>
+<script src="./ie/pie/PIE.js"></script>
+<script src="./ie/respond/dist/respond.min.js"></script>
+<![endif]-->
+
+<title> 달빛소프트 </title>
+</head>
+<body>
+<!-- layout -->
+<div id="wrap">
+  <!-- ========= #headBox ================================ -->
+  <header id="headBox">
+    <div class="info_title"></div>
+    <div class="test">
+      <div class="time"><a href="./p_time.html">시스템 이용시간</a></div>
+      <div class="pause"><a href="./p_pause.html">ID/IP차단</a></div>
+    </div>
+    <div class="languageList">
+      <ul>
+        <li>
+          <dl>
+            <dt><a href="#"></a></dt>
+            <dd>
+              <ul class="world_list">
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+                <li><a href="#"></a></li>
+              </ul>
+            </dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+  </header>
+  
+  <!-- ========= #infoBox ================================ -->
+  <section id="infoBox">
+    <h1 class="hidden">결제 정보</h1>
+
+    <div class="user_list">
+      <ul>
+        <li>
+          <dl>
+            <dt>회원 ID</dt>
+            <dd>00000</dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>상점 ID</dt>
+            <dd>00001</dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>상품명</dt>
+            <dd>가나 초콜릿</dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+
+    <div class="info_list">
+      <ul>
+        <li>
+          <dl>
+            <dt>결제금액</dt>
+            <dd>770,000원</dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>사용코인</dt>
+            <dd>12DBIT</dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>코인시세</dt>
+            <dd>100원</dd>
+          </dl>
+        </li>
+        <li>
+          <dl>
+            <dt>보내야 할 코인수</dt>
+            <dd>100DBIT</dd>
+          </dl>
+        </li>
+      </ul>
+    </div>
+
+    <div class="user_email">
+      <p> 선택사항 </p>
+      <form class="info_email">
+        <span>Email</span> <input type="email" name="userEmail" class="email_input" placeholder="이메일 입력 시 결제확인 메일이 전송됩니다." >
+      </form>
+    </div>
+
+    <div class="info_guide">
+      <span>위 결제정보를 확인하고 진행하시겠습니까?</span>
+      <input type="checkbox" name="pointCheck" id="pointCheck" required>
+      <div class="check_text">결제정보를 확인해주세요.</div>
+    </div>
+
+    <div class="info_agree">
+      <button type="button" class="no"><a href="./p_cancel.html"><span>취소</span></a></button>
+      <button type="button" class="yes"><a href="./p_warning.html"><span>확인</span></a></button>
+    </div>
+  </section>
+
+  <!-- ========= #footBox ================================ -->
+  <footer id="footBox">
+    <div class="progress">
+      <div class="progress-done" data-done="100"></div>
+    </div>
+  </footer>
+</div>
+
+<!--script -->
+<script src="../js/base/jquery-3.5.1.min.js"></script>
+<script src="../js/base/jquery-ui.min.js"></script>
+
+<script src="../js/base/back.js"></script>
+
+<script src="../js/src/header.js"></script>
+<script src="../js/src/footer.js"></script>
+<script src="../js/src/p_info.js"></script>
+</body>
+</html>

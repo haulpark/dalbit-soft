@@ -1,0 +1,30 @@
+/* main.css */
+
+#wrap{
+  position: relative;
+  width:auto; height:100%;
+  background-color: #fff;
+}
+
+/* logo fade in */
+
+#logo{
+  position: absolute; z-index:100;
+  top:0; left:0; right:0; bottom: 0; margin:auto;
+  width:200px; height:200px;
+  background-image: url(../../img/image/intro_logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+
+  animation: fadein 1s; 
+}
+
+@keyframes fadein{
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}

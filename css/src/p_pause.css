@@ -1,0 +1,37 @@
+/* p_pause.css */
+
+@media all and (min-width:320px) and (max-width:479px){
+
+#wrap{width:100%; height:100%;}
+
+/* ================================== */
+
+#pauseBox{
+  position: relative;
+  width:100%; height:86%;
+}
+
+  .pause_title{
+    position: absolute;
+    top:0; bottom:0;
+    margin:auto;
+    width:100%; height:150px;
+    text-align: center;
+    font-size:1.5rem;
+  }
+
+  .pause_time{font-weight: bold;}
+
+  .pause_title > .red{color:red;}
+
+
+  .fail_agree{
+    width:250px; height:auto;
+    margin:auto;
+    position: absolute;
+    left:0; right:0; bottom: 10%;
+  }
+  
+  button{width:120px; height:40px;}
+  
+}

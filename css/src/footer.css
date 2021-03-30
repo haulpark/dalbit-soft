@@ -1,0 +1,27 @@
+/* footer.css */
+/* footer animation 구성 : 화면 로드 시 구현 안 되는 페이지 있음 */
+
+@media all and (min-width:320px) and (max-width:479px){
+
+#footBox{width:100%; height:4%;}
+
+.progress {
+	background-color: #f5f6f7;
+	position: relative;
+	height: 100%;
+	width: 100%;
+}
+
+.progress-done {
+	background: linear-gradient(to right, #54b36e, #4a98d3 50%);
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 0;
+	opacity: 0;
+	transition: 1s ease 0.3s;
+}
+
+}
