@@ -49,7 +49,7 @@
   .guideBox{
     display:none;
     position: absolute; z-index:100;
-    left:10%; bottom: 15%;
+    left:12%; bottom: 15%;
     width:250px; height:150px;
     padding:15px; padding-top:25px; box-sizing: border-box;
     background-color: #f5f6f7;
@@ -70,34 +70,38 @@
 
   .br{height:5px;}
 
-  /* ------------------ guide icon = ? ------------------ */
-  .guide_icon{
-    width:20px; height:20px;
-    border-radius: 100%;
-    background-color:#4a98d3;
-    background-image: url(../../img/image/question.png);
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-  }
-
-  /* ------------------ 체크박스 ------------------ */
+ 
+  /* ------------------ warning_check ------------------ */
   .warning_check{
-    width:100%; height:auto;
-    font-size:0.8rem;
-    margin:auto; text-align: center;
-    margin-top: 20px; 
-    box-sizing: border-box;}
-
-  .cs_title{margin:auto;}
-  .cs{display:inline;}
-
-
-  .check_text{
     position: absolute;
-    top:20px; right:0; left:0; margin:auto;
-    display:none; 
-    color:#f00; font-size:0.9rem;}
+    width:320px; height:auto;
+    font-size:0.8rem;
+    top: 20px; left:0; right:0;
+    margin:auto; 
+    box-sizing: border-box;}
+   
+        .guide_icon{
+          float:left; margin-right: 5px;
+          width:20px; height:20px;
+          border-radius: 100%;
+          background-color:#4a98d3;
+          background-image: url(../../img/image/question.png);
+          background-size: 40%;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+        }
+
+        .cs_text{float:left;}
+        .cs{display:inline;}
+
+        #pointCheck{float:left;}
+
+
+    .check_text{
+      position: absolute;
+      top:40px; right:0; left:0; margin:auto;
+      display:none; 
+      color:#f00; font-size:0.8rem;}
  
   /* ------------------ 이용약관 ------------------ */
     .cs_box{
@@ -127,8 +131,7 @@
     margin:auto; 
   }
 
-
-  .no, .yes{margin-top:30px; width:120px; height:40px; }
+  .no, .yes{margin-top:60px; width:120px; height:40px; }
 
 
 }
