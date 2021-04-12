@@ -13,8 +13,7 @@
 
   /* ---------- match_list ------------ */
   .match_list{
-    width:100%; height:200px;
-    border-bottom: 10px solid #f5f6f7;
+    width:100%; height:190px;
     padding:15px 20px; box-sizing: border-box;
     font-size:1rem;
   }
@@ -23,14 +22,16 @@
   .match_list > ul > li {width:100%; height:40px;}
 
   .match_list > ul > li > dl {width:100%; height:100%; line-height: 40px;}
-  .match_list > ul > li > dl > dt {float:left; width:40%; height:100%; padding-left: 20px; box-sizing: border-box; color:#aaa;}
+  .match_list > ul > li > dl > dt {float:left; width:40%; height:100%; padding-left: 20px; box-sizing: border-box; color:#333;}
   .match_list > ul > li > dl > dd {float:right; width:60%; height:100%; text-align:right; padding-right: 20px; box-sizing: border-box;}
-  .match_list > ul > li:last-child > dl > dd{font-size:0.8rem;}
+
+  .line{width:80%; height:2px; background-color: #eee; margin:auto;}
+
+  .accent{color:#4684D1;}
   
   /* ---------- cash_list ------------ */
   .cash_list{
-    width:100%; height:170px;
-    border-bottom: 10px solid #f5f6f7;
+    width:100%; height:160px;
     padding:15px 20px; box-sizing: border-box;
     font-size: 1rem;
   }
@@ -39,21 +40,23 @@
   .cash_list > ul > li {width:100%; height:40px;}
 
   .cash_list > ul > li > dl {width:100%; height:100%; line-height: 40px;}
-  .cash_list > ul > li > dl > dt {float:left; width:40%; height:100%; padding-left: 20px; box-sizing: border-box; color:#aaa;}
+  .cash_list > ul > li > dl > dt {float:left; width:40%; height:100%; padding-left: 20px; box-sizing: border-box; color:#333;}
   .cash_list > ul > li > dl > dd {float:right; width:60%; height:100%; text-align:right; padding-right: 20px; box-sizing: border-box;}
 
 
   /* ---------- match_guide ------------ */
     .match_guide{
-      margin-top:40px;
+      margin-top:20px;
       width:100%; height:auto;
       text-align: center;
-      color:#f00;
+      font-weight: bold;
+      font-size:0.9rem;
+      color:#333;
     }
 
     .match_agree{
       width:250px; height:auto;
-      margin:auto; margin-top: 60px;
+      margin:auto; margin-top: 80px;
     }
     
     button{width:120px; height:40px;}
