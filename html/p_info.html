@@ -78,12 +78,14 @@
       </ul>
     </div>
 
+    <div class="line"></div>
+
     <div class="info_list">
       <ul>
         <li>
           <dl>
             <dt>결제금액</dt>
-            <dd>770,000원</dd>
+            <dd class="accentDd">770,000원</dd>
           </dl>
         </li>
         <li>
@@ -101,22 +103,22 @@
         <li>
           <dl>
             <dt>보내야 할 코인수</dt>
-            <dd>100DBIT</dd>
+            <dd class="accentDd">100DBIT</dd>
           </dl>
         </li>
       </ul>
     </div>
 
     <div class="user_email">
-      <p> 선택사항 </p>
       <form class="info_email">
-        <span>Email</span> <input type="email" name="userEmail" class="email_input" placeholder="이메일 입력 시 결제확인 메일이 전송됩니다." >
+        <span>Email(선택)</span>
+        <input type="email" name="userEmail" class="email_input" placeholder="이메일 입력 시 결제확인 메일이 전송됩니다." >
       </form>
     </div>
 
     <div class="info_guide">
-      <span>위 결제정보를 확인하고 진행하시겠습니까?</span>
       <input type="checkbox" name="pointCheck" id="pointCheck" required>
+      <span>위 결제정보를 확인하고 진행하시겠습니까?</span>
       <div class="check_text">결제정보를 확인해주세요.</div>
     </div>
 

@@ -12,7 +12,7 @@
   position: absolute; z-index:100;
   top:0; left:0; right:0; bottom: 0; margin:auto;
   width:200px; height:200px;
-  background-image: url(../../img/image/intro_logo.png);
+  background-image: url(../../img/image/intro_img.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;

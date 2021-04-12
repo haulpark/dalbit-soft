@@ -26,8 +26,8 @@
   .no{
     float:left;
     transition:transform 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
-    box-shadow:0 4px 6px #bf263d;
-    background-color: #ec2F4B;}
+    box-shadow:0 4px 6px #898989;
+    background-color: #9F9F9F;}
 
   .yes{
     float:right;

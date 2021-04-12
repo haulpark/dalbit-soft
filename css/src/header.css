@@ -10,9 +10,9 @@
 
 .info_title{
   float:left;
-  width:150px; height:40px;
-  margin-top:15px; margin-left:20px; 
-  background-image: url(../../img/image/headbox_logo.png);
+  width:120px; height:40px;
+  margin-top:12px; margin-left:35px; 
+  background-image: url(../../img/image/head_logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -28,7 +28,7 @@
 
 .languageList{
   position: absolute; z-index: 1000;
-  right:15px; top:20px;
+  right:35px; top:20px;
   width:40px; height:auto;
   
 }

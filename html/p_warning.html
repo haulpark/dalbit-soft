@@ -26,6 +26,44 @@
 <body>
 <!-- layout -->
 <div id="wrap">
+
+  <!-- 이용약관 -->
+  <div class="cs_box">
+    <div class="cs_content">
+      <span> 이용약관 </span>
+      <div class="terms">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Laudantium fuga saepe perferendis dolorem consequuntur 
+            illum error pariatur vel cum labore, vero minima, mollitia 
+            accusantium officiis. Eaque quis exercitationem itaque atque?</p>
+            <br />
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Laudantium fuga saepe perferendis dolorem consequuntur 
+          illum error pariatur vel cum labore, vero minima, mollitia 
+          accusantium officiis. Eaque quis exercitationem itaque atque?</p>
+          <br />
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Laudantium fuga saepe perferendis dolorem consequuntur 
+          illum error pariatur vel cum labore, vero minima, mollitia 
+          accusantium officiis. Eaque quis exercitationem itaque atque?</p>
+      </div>
+      <button type="button" class="cs_box_exit"></button>
+    </div>
+  </div>
+
+   <!-- 코인구매 안내 -->
+   <div class="info_guide">
+    <div class="guideBox">
+      <p class="guide_title">Tip. 코인자동간편결제란?</p>
+      <br />
+      <p class="guide_content">고객님의 코인구매요청으로</p>
+      <p class="guide_content">판매자의 코인거래가 완료된 경우,</p>
+      <p class="guide_content">자동으로 상점에 보내지고</p>
+      <p class="guide_content">결제를 완료합니다.</p>
+      <button type="button" class="guide_exit"></button>
+    </div>
+  </div>
+
   <!-- ========= #headBox ================================ -->
   <header id="headBox">
     <div class="info_title"></div>
@@ -52,9 +90,6 @@
   <!-- ========= #warningBox ================================ -->
   <section id="warningBox">
     <h1>필수 안내 및 이용약관</h1>
-    <div class="cs_box">
-      <button type="button" class="cs_box_exit"></button>
-    </div>
     <div class="message">
       <p> 본 간편 매칭 시스템은 쉽고 빠른<p>
       <p>개인 간의 코인 거래를 도와줍니다. </p>
@@ -66,24 +101,16 @@
     <br />
 
     <div class="maching_message">
+      <div class="warning_img"></div>
+      <p> 주의사항 </p>
       <br />
       <p> 코인구매자가 고의적으로 본 시스템을 악용하거나 </p>
       <p> <span>보이스피싱</span> 허위신고로 인한 고의 지연 및 영업방해</p>
       <p> 행위 등은 관계 <span>법령에 의거 처벌</span>될 수 있습니다. </p>
     </div>
 
-    <div class="info_guide">
-      <div class="guideBox">
-        Tip. 코인자동간편결제란? <div class="br"></div><div class="br"></div>
-        고객님의 코인구매요청으로 판매자의
-        코인거래가 완료된 경우,
-        자동으로 상점에 보내지고 결제를 완료합니다.
-        <button type="button" class="guide_exit"></button>
-    </div>
-
     <div class="warning_check">
-        <button type="button" class="guide_icon">
-        </button>
+        <input type="checkbox" name="pointCheck" id="pointCheck" required>
 
         <div class="cs_text">
           <span class="check_title">코인구매 시 자동간편 결제와</span>
@@ -91,7 +118,7 @@
           <span>에 동의하십니까?</span>
         </div>
 
-        <input type="checkbox" name="pointCheck" id="pointCheck" required>
+        <button type="button" class="guide_icon"> </button>
     </div>
 
     <div class="check_text"> 간편결제에 동의해주세요.</div>
@@ -99,7 +126,7 @@
 
     <div class="warning_agree">
       <button type="button" class="no"><a href="./p_cancel.html"><span>취소</span></a></button>
-      <button type="button" class="yes"><a href="./p_loding.html"><span class="matching_p">매칭시작</span></a></button></button>
+      <button type="button" class="yes"><a href="./p_loding.html"><span class="matching_p">구매요청</span></a></button></button>
     </div>
     
   </section>

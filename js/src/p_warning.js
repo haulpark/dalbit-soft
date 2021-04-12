@@ -18,7 +18,7 @@
   })
 
   // guide_icon 모달 창
-  var modal = $('.guideBox');
+  var modal = $('.info_guide');
   var btn = $('.guide_icon');
   var btnX = $('.guide_exit');
 
