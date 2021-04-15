@@ -15,8 +15,8 @@
 
   /* ---------- user_list ------------ */
   .user_list{
-    width:100%; height:150px;
-    padding:20px; box-sizing: border-box;
+    width:100%; height:190px;
+    padding:10px 20px; box-sizing: border-box;
   }
 
   .user_list > ul {width:100%; height:100%;}
@@ -29,8 +29,8 @@
   .line{width:80%; height:2px; margin:auto; background-color: #f5f6f7;}
   /* ---------- info_list ------------ */
   .info_list{
-    width:100%; height:190px;
-    padding:10px 20px; box-sizing: border-box;
+    width:100%; height:150px;
+    padding:20px; box-sizing: border-box;
   }
 
   .info_list > ul {width:100%; height:100%;}
