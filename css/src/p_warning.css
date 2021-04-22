@@ -15,7 +15,7 @@
   h1{text-align: center; font-size:1.6rem; margin-bottom: 20px;}
 
   .message{
-    width:100%; height:120px;
+    width:100%; height:60px;
     margin:auto; text-align: center;
     font-size:1rem;
     word-break: keep-all;
@@ -25,6 +25,10 @@
 
     .message_2 {font-size:0.9rem;}
     .message > p > span{color:#ae0000;}
+  
+  .p_msg{
+    margin:20px 0; 
+  }
 
   .maching_message{
     width:90%; height:200px;
@@ -56,7 +60,7 @@
     right:0; left:0;
     margin:auto;
     margin-top: 10px;
-    width:90%; height:20px;
+    width:70%; height:20px;
     color:#8a8a8a;
   }
 
