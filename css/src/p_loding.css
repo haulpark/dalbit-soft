@@ -23,7 +23,7 @@ h1 > span {color:#333;}
 .load_gif{
   width:150px; height:60px;
   margin:auto;
-  background-image: url(../../img/image/loading.gif);
+  background-image: url(../../img/image/loading_20s.gif);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50% 50%;
