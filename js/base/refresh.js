@@ -1,15 +1,14 @@
 //refresh.js
 //새로고침 차단
 
-function noEvent() {
+function noEvent() { // 새로 고침 방지
   if (event.keyCode == 116) {
-  event.keyCode= 2;
-  return false;
+      alert("새로고침을 할 수 없습니다.");
+      event.keyCode = 2;
+      return false;
+  } else if (event.ctrlKey
+          && (event.keyCode == 78 || event.keyCode == 82)) {
+      return false;
   }
-  else if(event.ctrlKey && (event.keyCode==78 || event.keyCode == 82))
-  {
-  return false;
-  }
-  }
-  
-  document.onkeydown = noEvent;
+}
+document.onkeydown = noEvent;
